@@ -1,0 +1,137 @@
+body {
+    background-color: #343a40;
+}
+
+header {
+    margin-left: 40px;
+    padding: 15px;
+    display: inline-block;
+    color: #f1f3f5;
+}
+
+.main-header {
+    display: flex;
+    gap: 15px;
+    justify-content: right;
+    align-items: center;
+}
+
+.main-header img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-header svg {
+    height: 40px;
+    width: 40px;
+}
+
+.section-google-img {
+    width: 100%;
+}
+
+.section-google-img img {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #364fc7;
+    border-radius: 30px;
+}
+
+.google-search {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 5px;
+    width: 561px;
+    display: inline-flex;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.google-search input {
+    width: 470px;
+    border: none;
+    font-size: 17px;
+}
+
+.google-search input:active {
+    border: white;
+    box-shadow: none;
+}
+
+.google-search svg {
+    height: 30px;
+    width: 30px;
+}
+
+.google-search button img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.google-search button {
+    border: none;
+    border-radius: 50%;
+}
+
+.favorit-sites-section {
+    width: 470px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.container-for-href {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding-top: 5px;
+}
+
+.container-for-href:hover,
+.container-for-href:active {
+    background-color: #495057;
+}
+
+a {
+    text-decoration: none;
+}
+
+a p {
+    max-width: 50px;
+    color: #f1f3f5;
+    text-align: center;
+    cursor: pointer;
+}
+
+a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.site-href-heroic-icons img {
+    padding-left: 5px;
+    border-radius: 0%;
+    height: 40px;
+    width: 40px;
+}
+
+.plusNotImg {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+      border-radius: 50%;
+    background-color: #adb5bd;
+}
